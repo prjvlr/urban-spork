@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      .bg { fill: #f5f4f0; }
+      .topbar { fill: #1a1916; }
+      .accent-line { stroke: #b03a2e; stroke-width: 3; }
+      .border-line { stroke: #c8c5bf; stroke-width: 1; }
+      .domain {
+        font-family: 'IBM Plex Mono', 'Courier New', monospace;
+        font-size: 16px;
+        fill: #f5f4f0;
+        letter-spacing: 2px;
+      }
+      .title {
+        font-family: 'IBM Plex Sans', 'Helvetica', sans-serif;
+        font-size: 64px;
+        fill: #1a1916;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+      }
+      .subtitle {
+        font-family: 'IBM Plex Sans', 'Helvetica', sans-serif;
+        font-size: 40px;
+        fill: #1a1916;
+        font-weight: 300;
+      }
+      .footer-text {
+        font-family: 'IBM Plex Mono', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #6b6760;
+        letter-spacing: 1.5px;
+      }
+      .accent-text { fill: #b03a2e; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="1200" height="630"/>
+
+  <!-- Top bar -->
+  <rect class="topbar" width="1200" height="48"/>
+  <text class="domain" x="60" y="31">ISMISSION22LEGIT.COM</text>
+
+  <!-- Left accent stripe -->
+  <line class="accent-line" x1="60" y1="240" x2="60" y2="400"/>
+
+  <!-- Main title (the line you specified) -->
+  <text class="title" x="86" y="290">Oregon DOJ Investigation</text>
+  <text class="subtitle" x="86" y="370">
+    <tspan>Mission 22 </tspan><tspan class="accent-text">/</tspan><tspan> ElderHeart Inc.</tspan>
+  </text>
+
+  <!-- Divider -->
+  <line class="border-line" x1="60" y1="540" x2="1140" y2="540"/>
+
+  <!-- Footer line -->
+  <text class="footer-text" x="60" y="580">PUBLIC RECORD &#8212; SIGNED MAY 19, 2021</text>
+</svg>
