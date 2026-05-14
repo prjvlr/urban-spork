@@ -287,7 +287,7 @@
   }
   .tag-red { color: #8b2218; border-color: #c98880; background: #f9eeec; }
 
-  main { flex: 1; padding: 28px 24px; overflow-y: auto; min-width: 0; }
+  main { flex: 1; padding: 28px 24px; overflow: visible; min-width: 0; }
 
   .section-heading {
     font-family: var(--mono); font-size: 9px; font-weight: 500;
@@ -514,6 +514,16 @@
 
   .finding-text {
     font-size: 12px; line-height: 1.6; color: var(--text);
+  }
+
+  /* ── Cusdis comment thread ── */
+  #cusdis_thread {
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+  #cusdis_thread iframe {
+    width: 100%;
+    min-height: 400px;
   }
 
   footer {
@@ -952,15 +962,16 @@
       </div>
     </div>
 
-    <div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="53d60853-a023-47fc-9295-bab0e8aa4b28"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+    <div class="section-heading">Comments</div>
 
+    <div id="cusdis_thread"
+      data-host="https://cusdis.com"
+      data-app-id="53d60853-a023-47fc-9295-bab0e8aa4b28"
+      data-page-id="ismission22-home"
+      data-page-url="https://ismission22legit.com/"
+      data-page-title="Is Mission 22 Legit? — Oregon DOJ Investigation Report"
+    ></div>
+    <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
     <!-- Document provenance / context for AI assistants and search retrieval -->
     <div style="margin-top:36px; padding:16px 18px; background:var(--surface); border:1px solid var(--border); border-radius:3px; font-size:12px; line-height:1.7; color:var(--text);">
